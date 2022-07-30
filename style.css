@@ -1,0 +1,105 @@
+body{
+    
+   background-image: url("img/bg.png");
+   background-size: cover;
+}
+@media only screen and (max-width: 700px) {
+    body{
+        background-size: 150%;
+        background-position: center;
+    }
+}
+
+#preGame_page{
+    text-align: center;
+}
+#bg_img{
+    position: relative;
+    left: auto;
+    right: 0;
+    width: 90%;
+    margin-left: 20px;
+}
+#play{
+    display: block;
+    position: relative;
+    left: 30%;
+    margin-top: -10%;
+    padding: 20px 40px;
+    background-color:rgb(15, 15, 15) ;
+    border-radius: 5px;
+    color: rgb(91, 202, 142);
+    font-weight: bolder;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+@media only screen and (max-width: 1000px) {
+    #bg_img {
+      top: 100px;
+    }
+    #play{
+        margin-top:  50px;
+        
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+
+  }
+
+/*---------------------------------------------------------------------*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+
+input{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(91, 202, 142);
+    border: 0;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 1px;
+    border-color:rgb(10, 68, 37) ;
+    border-style: solid;
+    caret-color: transparent;
+
+}
+ 
+#game_page{
+    text-align: center;
+}
+
+#img1{
+    width: 250px;
+}
+
+#tr3{
+    border-bottom: black;
+}
+#tr6{
+    border-bottom: black;
+}
+td{
+    padding: 10px 15px;
+    
+}
+table{
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgb(29, 28, 28);
+    color: rgb(91, 202, 142);
+    font-weight: bolder;
+    font-size: 1.2em;
+}
